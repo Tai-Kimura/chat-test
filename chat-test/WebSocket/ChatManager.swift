@@ -19,9 +19,6 @@ protocol ChatManagerDelegate: class {
 
 class ChatManager: WebSocketDelegate {
     private static var Instance = ChatManager()
-    
-    public var additionalRequestParameter = ""
-    
     public static var instance: ChatManager {
         get {
             return Instance
