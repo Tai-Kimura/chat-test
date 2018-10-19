@@ -13,7 +13,6 @@ var server = app.listen(3000, function(){
     console.log("Node.js is listening to PORT:" + server.address().port);
 });
 
-// 写真リストを取得するAPI
 app.get("/layout_loader", function(req, res, next){
     console.log(req.query);
     var filePath = path.join(__dirname, "../chat-test");
