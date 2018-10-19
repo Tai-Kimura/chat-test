@@ -89,7 +89,7 @@
 		B6F0901321771A4F00BD3090 /* chat-test */ = {
 			isa = PBXGroup;
 			children = (
-				B6F0903D21772EA200BD3090 /* SocketIO */,
+				B6F0903D21772EA200BD3090 /* WebSocket */,
 				B6F09036217727E600BD3090 /* Model */,
 				B6F09030217726CA00BD3090 /* View */,
 				B6F090422177537400BD3090 /* Layouts */,
@@ -129,12 +129,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B6F0903D21772EA200BD3090 /* SocketIO */ = {
+		B6F0903D21772EA200BD3090 /* WebSocket */ = {
 			isa = PBXGroup;
 			children = (
 				B6F0903E21772EBC00BD3090 /* ChatManager.swift */,
 			);
-			path = SocketIO;
+			path = WebSocket;
 			sourceTree = "<group>";
 		};
 		B6F090422177537400BD3090 /* Layouts */ = {
