@@ -1,0 +1,32 @@
+PODS:
+  - GoogleWebRTC (1.1.25102)
+  - SimpleApiNetwork (0.4.0)
+  - Socket.IO-Client-Swift (13.3.1):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+  - SwiftJsonUI (1.5.2):
+    - Socket.IO-Client-Swift (~> 13.3.0)
+
+DEPENDENCIES:
+  - GoogleWebRTC
+  - SimpleApiNetwork
+  - SwiftJsonUI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleWebRTC
+    - SimpleApiNetwork
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftJsonUI
+
+SPEC CHECKSUMS:
+  GoogleWebRTC: 5cd390bc24c272fb7ca2b8765e4a7578a770b279
+  SimpleApiNetwork: e3ea5e8d2b925df77baa1a4ec71f76677551a63c
+  Socket.IO-Client-Swift: 79f8f85fa44881838175a20f9bd2c32bef2c9d37
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftJsonUI: 2f8c45e48e4dbd7a2d3fbca01e33604824daff44
+
+PODFILE CHECKSUM: 02493f7924b93309daeaf50fc27c1f25ca8bc4ff
+
+COCOAPODS: 1.5.2

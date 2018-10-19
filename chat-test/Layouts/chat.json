@@ -1,0 +1,60 @@
+{
+  "type": "View",
+  "id": "root_view",
+  "width": "matchParent",
+  "height": "matchParent",
+  "background": "#dcdcdc",
+  "orientation": "vertical",
+  "direction": "bottomToTop",
+  "canTap": false,
+  "onclick": "hideKeyboard",
+  "child": [
+    {
+      "type": "View",
+      "id": "message_area",
+      "width": "matchParent",
+      "height": "wrapContent",
+      "orientation": "horizontal",
+      "direction": "rightToLeft",
+      "paddings": [
+        10.0,
+        15.0
+      ],
+      "child": [
+        {
+          "type": "Button",
+          "id": "send_btn",
+          "width": 80.0,
+          "height": 50.0,
+          "centerVertical": true,
+          "background": "#01DF01",
+          "cornerRadius": 4.0,
+          "fontColor": "#ffffff",
+          "text": "送信",
+          "onclick": "sendMessage"
+        },
+        {
+          "type": "TextView",
+          "id": "message_text_view",
+          "width": "matchParent",
+          "rightMargin": 15.0,
+          "minHeight": 50.0,
+          "maxHeight": 250.0,
+          "flexible": true,
+          "background": "#ffffff",
+          "cornerRadius": 4.0,
+          "containerInset": [
+            15.0
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Collection",
+      "id": "collection_view",
+      "width": "matchParent",
+      "height": "matchParent",
+      "background": "#f0f0f0"
+    }
+  ]
+}

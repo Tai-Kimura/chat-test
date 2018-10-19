@@ -1,0 +1,24 @@
+{
+  "type": "View",
+  "width": "matchParent",
+  "height": "matchParent",
+  "paddings": [
+    0,
+    10.0
+  ],
+  "child": [
+    {
+      "type": "Label",
+      "id": "message_label",
+      "maxWidth": 250.0,
+      "edgeInset": [
+        15.0,
+        20.0
+      ],
+      "background": "#ffffff",
+      "cornerRadius": 4.0,
+      "clipToBounds": true,
+      "binding": "message"
+    }
+  ]
+}
